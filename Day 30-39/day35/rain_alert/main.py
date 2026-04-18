@@ -1,4 +1,5 @@
 import requests
+import twilio
 END_POINT = "https://api.weatherapi.com/v1/current.json"
 API_KEY = "f42c0f77789f449893073348260704"
 parameters = {"q":"Awasa",
@@ -15,7 +16,7 @@ weather_data = response.json()
 
 # import requests
 # import os
-# from twilio.rest import Client
+#   from twilio.rest import Client
 # from twilio.http.http_client import TwilioHttpClient
 #
 # OWM_Endpoint = "https://api.openweathermap.org/data/2.5/onecall"
